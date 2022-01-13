@@ -23,5 +23,10 @@ public class Project {
 
     //
     public ArrayList<Implementor> Team_assigned = new ArrayList<Implementor>();
+    
+    //
+    public String getProjectStatus() {
+        return status;
+    }
 
 }
